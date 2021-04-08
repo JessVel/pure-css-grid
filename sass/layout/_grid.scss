@@ -12,6 +12,7 @@
   [class^="col-"] {
     background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
     float: left;
+    height: 30px;
 
     &:not(:last-child) {
       margin-right: $gutter-horizontal;
